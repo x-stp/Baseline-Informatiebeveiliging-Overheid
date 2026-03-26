@@ -21,12 +21,12 @@ Uit een risicoanalyse blijkt of deze voldoende zijn om het risico te beheersen e
 ## 5.01.01
 De entiteit heeft een informatiebeveiligingsbeleid opgesteld en vastgesteld door het bestuur van de entiteit.
 Dit beleid bevat ten minste de volgende punten:
-* De strategische uitgangspunten en randvoorwaarden die de entiteit hanteert voor informatiebeveiliging en in het bijzonder de inbedding in en afstemming op het algemene beveiligingsbeleid en het informatievoorzieningsbeleid.
-* De organisatie van de informatiebeveiligingsfunctie, waaronder verantwoordelijkheden, taken en bevoegdheden.
-* De toewijzing van de verantwoordelijkheden en samenhang van informatiebeveiliging voor ketens van informatiesystemen, de beveiliging van OT, privacybescherming en de verantwoordelijkheden voor de continuïteit van de taakuitvoering van entiteit (BCM) aan lijnmanagers.
-* De gemeenschappelijke betrouwbaarheidseisen en normen die op de entiteit van toepassing zijn.
-* De frequentie waarmee het informatiebeveiligingsbeleid wordt geëvalueerd.
-* De bevordering van het beveiligingsbewustzijn.
+- De strategische uitgangspunten en randvoorwaarden die de entiteit hanteert voor informatiebeveiliging en in het bijzonder de inbedding in en afstemming op het algemene beveiligingsbeleid en het informatievoorzieningsbeleid.
+- De organisatie van de informatiebeveiligingsfunctie, waaronder verantwoordelijkheden, taken en bevoegdheden.
+- De toewijzing van de verantwoordelijkheden en samenhang van informatiebeveiliging voor ketens van informatiesystemen, de beveiliging van OT, privacybescherming en de verantwoordelijkheden voor de continuïteit van de taakuitvoering van entiteit (BCM) aan lijnmanagers.
+- De gemeenschappelijke betrouwbaarheidseisen en normen die op de entiteit van toepassing zijn.
+- De frequentie waarmee het informatiebeveiligingsbeleid wordt geëvalueerd.
+- De bevordering van het beveiligingsbewustzijn.
 
 ## 5.01.02
 Het informatiebeveiligingsbeleid wordt minimaal jaarlijks en in aansluiting bij de bestuurs- en Planning & Control (P&C)cycli en externe ontwikkelingen beoordeeld en zo nodig bijgesteld.
@@ -278,14 +278,14 @@ De proceseigenaar actualiseert dit overzicht ten minste eens per drie jaar.
 Geen overheidsmaatregel, zie inleiding deel 2 BIO-overheidsmaatregelen.
 
 ## 5.32.01
-Geen overheidsmaatregel, zie inleiding deel 2 BIO-overheidsmaatregelen.
+```Geen overheidsmaatregel, zie inleiding deel 2 BIO-overheidsmaatregelen.```
 
 ## 5.33.01 
-De proceseigenaar heeft voor alle informatie(systemen) in selectielijsten de bewaartermijn vastgelegd, rekening houdend met de eigen bedrijfsdoelstellingen en wet- en regeling, zoals de archiefwet en privacywetgeving.<br><br>
-De proceseigenaar heeft deze termijnen ook praktisch ingeregeld en toetst periodiek de werking hiervan.
+```De proceseigenaar heeft voor alle informatie(systemen) in selectielijsten de bewaartermijn vastgelegd, rekening houdend met de eigen bedrijfsdoelstellingen en wet- en regeling, zoals de archiefwet en privacywetgeving.```<br><br>
+```De proceseigenaar heeft deze termijnen ook praktisch ingeregeld en toetst periodiek de werking hiervan.```
 
 ## 5.34.01
-Geen overheidsmaatregel, zie inleiding deel 2 BIO-overheidsmaatregelen.
+```Geen overheidsmaatregel, zie inleiding deel 2 BIO-overheidsmaatregelen.```
 
 ## 5.35.01
 Vervallen.
@@ -602,8 +602,9 @@ Architectuurprincipes zoals ‘security by design’ en ‘security by default�
 Geen overheidsmaatregel, zie inleiding deel 2 BIO-overheidsmaatregelen.
 
 ## 8.29.01
-Voor acceptatietesten van systemen worden gestructureerde testmethodieken gebruikt.<br><br>
-De testen worden waar mogelijk geautomatiseerd uitgevoerd. Van de resultaten van de testen wordt verslag gemaakt.
+Voor acceptatietesten van systemen worden gestructureerde testmethodieken gebruikt.
+De testen worden waar mogelijk geautomatiseerd uitgevoerd.<br><br>
+Van de resultaten van de testen wordt verslag gemaakt.
 
 ## 8.30.01
 Interne maatregelen voor systeemontwikkeling zijn onverkort van toepassing op uitbestede ontwikkeling, aangevuld met maatregelen die volgen vanuit uitbestedingen.
