@@ -519,7 +519,7 @@ Bij ontdekte nieuwe dreigingen (aanvallen) via overheidsmaatregel 8.16.3 worden 
 Het SIEM- en/of het SOC-monitoringsproces hebben eenduidige regels over wanneer een incident wordt gerapporteerd aan het verantwoordelijke management.
 
 ## 8.16.03
-Het SIEM- en/of het SOC-monitoringsproces hebben eenduidige regels over wanneer een incident wordt gerapporteerd aan het verantwoordelijke management.
+De informatieverwerkende omgeving wordt gemonitord met een detectie- en response-oplossing, waarmee aanvallen kunnen worden gedetecteerd en afwijkingen adequaat en tijdig worden behandeld. 
 
 ## 8.16.04
 Actieve netwerkcomponenten zijn voorzien van logging en monitoring van die logging om afwijkende gebeurtenissen te kunnen waarnemen en daarop te reageren.
