@@ -21,12 +21,12 @@ Uit een risicoanalyse blijkt of deze voldoende zijn om het risico te beheersen e
 ## 5.01.01
 De entiteit heeft een informatiebeveiligingsbeleid opgesteld en vastgesteld door het bestuur van de entiteit.
 Dit beleid bevat ten minste de volgende punten:
-- De strategische uitgangspunten en randvoorwaarden die de entiteit hanteert voor informatiebeveiliging en in het bijzonder de inbedding in en afstemming op het algemene beveiligingsbeleid en het informatievoorzieningsbeleid.
-- De organisatie van de informatiebeveiligingsfunctie, waaronder verantwoordelijkheden, taken en bevoegdheden.
-- De toewijzing van de verantwoordelijkheden en samenhang van informatiebeveiliging voor ketens van informatiesystemen, de beveiliging van OT, privacybescherming en de verantwoordelijkheden voor de continuïteit van de taakuitvoering van entiteit (BCM) aan lijnmanagers.
-- De gemeenschappelijke betrouwbaarheidseisen en normen die op de entiteit van toepassing zijn.
-- De frequentie waarmee het informatiebeveiligingsbeleid wordt geëvalueerd.
-- De bevordering van het beveiligingsbewustzijn.
+* De strategische uitgangspunten en randvoorwaarden die de entiteit hanteert voor informatiebeveiliging en in het bijzonder de inbedding in en afstemming op het algemene beveiligingsbeleid en het informatievoorzieningsbeleid.
+* De organisatie van de informatiebeveiligingsfunctie, waaronder verantwoordelijkheden, taken en bevoegdheden.
+* De toewijzing van de verantwoordelijkheden en samenhang van informatiebeveiliging voor ketens van informatiesystemen, de beveiliging van OT, privacybescherming en de verantwoordelijkheden voor de continuïteit van de taakuitvoering van entiteit (BCM) aan lijnmanagers.
+* De gemeenschappelijke betrouwbaarheidseisen en normen die op de entiteit van toepassing zijn.
+* De frequentie waarmee het informatiebeveiligingsbeleid wordt geëvalueerd.
+* De bevordering van het beveiligingsbewustzijn.
 
 ## 5.01.02
 Het informatiebeveiligingsbeleid wordt minimaal jaarlijks en in aansluiting bij de bestuurs- en Planning & Control (P&C)cycli en externe ontwikkelingen beoordeeld en zo nodig bijgesteld.
