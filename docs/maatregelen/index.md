@@ -20,7 +20,7 @@ Uit een risicoanalyse blijkt of deze voldoende zijn om het risico te beheersen e
 
 ## 5.01.01
 
-De entiteit heeft een informatiebeveiligingsbeleid opgesteld en vastgesteld door het bestuur van de entiteit.
+De entiteit heeft een informatiebeveiligingsbeleid opgesteld en vastgesteld door het bestuur van de entiteit.<br><br>
 Dit beleid bevat ten minste de volgende punten:
 
 - De strategische uitgangspunten en randvoorwaarden die de entiteit hanteert voor informatiebeveiliging en in het bijzonder de inbedding in en afstemming op het algemene beveiligingsbeleid en het informatievoorzieningsbeleid.
