@@ -29,7 +29,7 @@ Voor meer informatie over de NEN en het gebruik van hun producten zie: www.nen.n
 | 1.3 definitief | 09-01-2026| Aanpassingen vanwege BIO2 als wetgeving. Overheidsmaatregelen buiten Cbw-reikwijdte grijs gemarkeerd. 5.24.08 toegevoegd en vanuit 8.08.06 ernaar verwezen. Verwijderd: Derde alinea van 2. Doel van de BIO is in § Cyberbeveiligingswet (Cbw) beschreven. Eerste alinea van 3. Toepasing BIO is beschreven in 1. Leeswijzer. Typen hygiënen en overheidsrisico. 5.21.01 is beschreven in 5.21.03. Nationale in 5.24.07 vanwege Cbw. 5.35.01 is beschreven in Deel 1 BIO2-kader. 7.01.01 is onvoldoende concreet. Eerste alinea van 7.10.02 is beschreven bij 7.10.01. 8.24.03 is indirect beschreven bij 8.24.01. Verplaatste overheidsmaatregelen: Eerste deel van 5.01.01 naar 5.02.01. 5.04.02 naar 5.10.02. 5.04.03 naar 5.10.03. 5.24.06 naar 5.21.05. 5.25.01 naar 5.26.01. 5.26.01 naar 5.25.01. Eerste bullet van 8.01.02 naar 6.03.04. 08.08.06 met een verwijzing naar 5.24.02. | CIP |
 
 # DANKWOORD
-Wij danken iedereen die direct of indirect heeft bijgedragen aan de totstandkoming van de BIO2. In willekeurige volgorde danken wij de vertegenwoordigers van de koepelorganisaties (Vereniging van Nederlandse Gemeenten, Interprovinciaal Overleg en Unie van Waterschappen), Chief Information Security Officers (CISO’s) van overheidseniteiten, de Auditdienst Rijk (ADR), de Rijksinspectie Digitale Infrastructuur (RDI), het Nationaal Cyber Security Centrum (NCSC), het Centrum Informatiebeveiliging en Privacybescherming (CIP), de informatiebeveiligingsdienst voor gemeenten (IBD), de leden van de werkgroep BIO, bestuurders en functionarissen van overheden en alle anderen die hebben bijgedragen. 
+Wij danken iedereen die direct of indirect heeft bijgedragen aan de totstandkoming van de BIO2. In willekeurige volgorde danken wij de vertegenwoordigers van de koepelorganisaties (Vereniging van Nederlandse Gemeenten, Interprovinciaal Overleg en Unie van Waterschappen), Chief Information Security Officers (CISO’s) van overheidseniteiten, de Auditdienst Rijk (ADR), de Rijksinspectie Digitale Infrastructuur (RDI), het Nationaal Cyber Security Centrum (NCSC), het Centrum Informatiebeveiliging en Privacybescherming (CIP), de informatiebeveiligingsdienst voor gemeenten (IBD), de leden van de werkgroep BIO, bestuurders en functionarissen van overheden en alle anderen die hebben bijgedragen.<br><br> 
 
 # DEEL 1 BIO2-KADER
 De overheid vervult een essentiële rol in de samenleving door bij te dragen aan de democratische rechtsstaat en het bieden van diensten aan burgers en bedrijven. 
@@ -157,7 +157,7 @@ Het lijnmanagement:
 - is verantwoordelijk voor het toepassen van de verplichte beheersmaatregelen en overheidsmaatregelen uit de BIO voor het informatiesysteem; 
 - vraagt de CISO om advies, in alle gevallen waar het afwijkt van overheidsmaatregelen, ook waar dat expliciet als bevoegdheid genoemd is.
 
-### 12.3 CISO
+## 12.3 CISO
 - is verantwoordelijk voor de coördinatie van informatiebeveiliging; 
 - ondersteunt de bestuurder en geeft gevraagd en ongevraagd advies aan de bestuurder; 
 - vertaalt wetgeving en bedrijfsdoelstellingen naar een informatiebeveiligingsbeleid; 
@@ -166,7 +166,7 @@ Het lijnmanagement:
   
 De bestuurder laat zich daarbij adviseren door een Chief Information Security Officer (CISO), Chief Information Officer (CIO), functionaris gegevensbescherming (FG) en dergelijke. 
 
-### 12.4 Interne toezichthouder
+## 12.4 Interne toezichthouder
 Een bestuurder ziet toe op de toepassing van informatiebeveiliging binnen de entiteit. Een interne toezichthouder kan helpen bij dit toezicht.
 
 ## 13. Leveranciers 
