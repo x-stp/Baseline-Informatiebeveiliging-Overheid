@@ -1,6 +1,3 @@
-!!! Warning "Let op!"
-     Op dit moment wordt de BIO2 v1.2 vervangen door de BIO2 v1.3.
-
 !!! Warning "Disclaimer"
      De BIO2 versie 1.3 in de GitHub-omgeving heeft geen formele status. De inhoud van dit document kan afwijken van de formele documentatie. De officiële versie van de BIO2 is beschikbaar via de [BIO-website](https://www.bio-overheid.nl/category/producten/bio).
 
@@ -76,9 +73,9 @@ Deel 1 BIO2-kader en het bijbehorende deel 2 BIO-overheidsmaatregelen hebben een
 De BIO stelt de volgende verplichtingen aan entiteiten:
 
 - **NEN-EN-ISO/IEC 27001 wordt toegepast op het formuleren van eisen voor het vaststellen, implementeren, bijhouden en continu verbeteren van een managementsysteem voor informatiebeveiliging en het vaststellen van het toepassingsgebied (de reikwijdte) van dit managementsysteem.**
-Voor het bepalen van de context van de organisatie neemt de organisatie minimaal de beschreven context over uit de BIO bij het inrichten, implementeren, in stand houden en continu verbeteren van het managementsysteem voor informatiebeveiliging.<BR>
+Voor het bepalen van de context van de organisatie neemt de organisatie minimaal de beschreven context over uit de BIO bij het inrichten, implementeren, in stand houden en continu verbeteren van het managementsysteem voor informatiebeveiliging.<br>
 - **NEN-EN-ISO/IEC 27002 én de verplichte overheidsmaatregelen uit de BIO moeten worden toegepast op het formuleren van passende beheersmaatregelen.** Hierbij wordt rekening gehouden met de omgeving(en) waarin de informatiebeveiligingsrisico’s gelden, gebaseerd op de scope en de onderkende risico’s.
-De beheersmaatregelen uit NEN-ISO/IEC 27002 en de BIO kunnen, waar nodig én gelijkwaardig worden vervangen of gecombineerd met beheersmaatregelen uit andere normen en richtlijnen, zoals voor zorginformatie de NEN 7510 en voor Operationele Technologie (OT) de CSIR en IEC 62443 Industriële cybersecurity.<BR>
+De beheersmaatregelen uit NEN-ISO/IEC 27002 en de BIO kunnen, waar nodig én gelijkwaardig worden vervangen of gecombineerd met beheersmaatregelen uit andere normen en richtlijnen, zoals voor zorginformatie de NEN 7510 en voor Operationele Technologie (OT) de CSIR en IEC 62443 Industriële cybersecurity.<br>
 - **Entiteiten tonen opzet, bestaan en werking van maatregelen aan.** Dit vereiste volgt ook uit de Cbw/Network and Information Security directive 2 (NIS2).
 De BIO omvat overheidsmaatregelen op tactisch niveau.
 Dit betekent dat deze maatregelen door de entiteit eerst geoperationaliseerd worden voordat ze geïmplementeerd kunnen worden.
@@ -86,7 +83,7 @@ Deze implementatie is risicogericht en voldoet aan best practices en marktstanda
 Onderdeel van de operationalisatie is het kunnen detecteren of de maatregel goed functioneert.
 Over het hele ontwerp wordt geborgd dat uitval van één maatregel niet leidt tot een directe kwetsbaarheid in het hele systeem.
 Hoe de maatregelen zijn geoperationaliseerd, wordt via verwijzingen vastgelegd. Hiermee toont een entiteit de ‘opzet’ van maatregelen aan.
-Al dan niet met behulp van externe partijen en/of via self-assessments, audits, pentesten, redteam-testen en dergelijke toont een entiteit het ‘bestaan’ en de ‘werking’ aan van maatregelen aan. <BR>
+Al dan niet met behulp van externe partijen en/of via self-assessments, audits, pentesten, redteam-testen en dergelijke toont een entiteit het ‘bestaan’ en de ‘werking’ aan van maatregelen aan.<br>
 
 ## 5. Het managementsysteem voor informatiebeveiliging
 
@@ -147,7 +144,7 @@ De entiteit:
 - bepaalt wat de potentiële consequenties zijn als deze bedreigingen zich daadwerkelijk manifesteren.
 
 Hierbij worden uiteenlopende dreigingen en mogelijke scenario’s systematisch geïnventariseerd.
-Verschillende hulpmiddelen zoals NEN-ISO/IEC 27005 of het Cybersecurity Framework (CSF) en SP 800-30 van National Institute of Standards and Technology (NIST) kunnen gebruikt worden. 
+Verschillende hulpmiddelen zoals NEN-ISO/IEC 27005 of het Cybersecurity Framework (CSF) en SP 800-30 van National Institute of Standards and Technology (NIST) kunnen gebruikt worden.
 Voorbeelden hiervan zijn dreigingen die voortkomen uit ketenafhankelijkheden, op OT, of gegevensuitwisseling met zorginstellingen.
 
 ## 6.4 Risicoanalyse
@@ -203,7 +200,6 @@ De BIO is expliciet niet bedoeld om alle beveiligingseisen van de overheid af te
 De verschillende overheidslagen hebben te maken met specifieke dreigingen.
 Overheidslagen kunnen specifieke aanvullende maatregelen benoemen en die, afhankelijk van de interne besluitvorming, verplichtend of adviserend door te voeren.
 Daarnaast is elke entiteit zelf verantwoordelijk om vast te stellen welke interne en externe eisen, waaronder ook wet- en regelgeving, van toepassing zijn. <br><br>
-
 Binnen de overheid gelden meerdere normen voor informatiebeveiliging.
 Naast de BIO zijn er bijvoorbeeld de Nederlandse normen NEN 7510 Informatiebeveiliging in de zorg voor verwerkers van zorginformatie, NEN-EN-ISO 22301 Managementsystemen voor bedrijfscontinuïteit en crisismanagement en de CSIR voor OT.
 De basis van deze normen is NEN-EN-ISO/IEC 27001 en NEN-EN-ISO/IEC 27002.
@@ -217,50 +213,51 @@ Hieronder volgt een samenvatting van de belangrijkste punten die betrekking hebb
 
 - **Verplichting BIO**: het toepassen van de BIO voor de beveiliging van netwerk- en informatiesystemen is via de Cbw verplicht voor alle entiteiten die vallen onder de sector ‘Overheid’.
 Voor overheidsentiteiten die niet onder de Cbw vallen, is de BIO verplichtende zelfregulering per besluit in van het Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO).
-Ook waar beheers- en overheidsmaatregelen zijn uitgezonderd van de Cbw-verplichting of waar informatiebeveiliging over iets anders gaat dan de beveiliging van netwerk- en informatiesystemen, bijvoorbeeld de beveiliging van informatie op papier, geldt de BIO als verplichtende zelfregulering voor alle overheidsentiteiten. 
-- **Verantwoordelijkheid bestuurder**: De bestuurder is verantwoordelijk voor: 
+Ook waar beheers- en overheidsmaatregelen zijn uitgezonderd van de Cbw-verplichting of waar informatiebeveiliging over iets anders gaat dan de beveiliging van netwerk- en informatiesystemen, bijvoorbeeld de beveiliging van informatie op papier, geldt de BIO als verplichtende zelfregulering voor alle overheidsentiteiten.
+- **Verantwoordelijkheid bestuurder**: De bestuurder is verantwoordelijk voor:
    - het treffen van passende en evenredige technische, operationele en organisatorische maatregelen om de risico’s te beheren en afgestemd op de voor de entiteit relevante risico’s en deze beheersen; 
-   - het goedkeuren van te nemen maatregelen voor het beheer van cyberbeveiligingsrisico’s; 
-   - het toezien op de kwaliteit van de uitvoering en het beheer van de maatregelen. 
+   - het goedkeuren van te nemen maatregelen voor het beheer van cyberbeveiligingsrisico’s;
+   - het toezien op de kwaliteit van de uitvoering en het beheer van de maatregelen.
 - **Opleiding**: bestuurders zijn opgeleid en hebben kennis om te kunnen sturen op informatiebeveiligingsrisico’s.
 Ze zorgen ervoor dat hun werknemers regelmatig opleiding/training volgen over het onderwerp.
-Dit betekent dat de opleiding voldoet aan de eisen uit de Cbw. 
+Dit betekent dat de opleiding voldoet aan de eisen uit de Cbw.
 - **Meldplicht**: de entiteit is verantwoordelijk voor het tijdig melden van significante incidenten.
-Overheden maken binnen de doorlooptijden een melding van een meldplichtig incident. 
+Overheden maken binnen de doorlooptijden een melding van een meldplichtig incident.
 - **Toezicht en verantwoording**: de toezichthouder zal toezicht houden op de invulling van de zorgplicht volgens de Cbw.
 De RDI is als toezichthouder aangewezen voor de sector ‘Overheid’.
 
 ## 12. Governance
 
 De bestuurder van een entiteit is verantwoordelijk voor het beheersen van informatiebeveiligingsrisico’s.
-De bestuurder kan dat niet alleen. 
-Om informatiebeveiliging gedegen in te regelen, is een structuur nodig. 
-Het is aan de entiteit om deze structuur aan te brengen volgens NEN-EN-ISO/IEC 27001. <br><br> 
-Voor overheden zijn er een aantal rollen die standaard deel uitmaken van informatiebeveiliging van een entiteit. 
-Deze rollen komen ook terug in de uitwerking van overheidsmaatregelen. 
+De bestuurder kan dat niet alleen.
+Om informatiebeveiliging gedegen in te regelen, is een structuur nodig.
+Het is aan de entiteit om deze structuur aan te brengen volgens NEN-EN-ISO/IEC 27001.<br><br>
+Voor overheden zijn er een aantal rollen die standaard deel uitmaken van informatiebeveiliging van een entiteit.
+Deze rollen komen ook terug in de uitwerking van overheidsmaatregelen.
 
 ## 12.1 Bestuurder
 
-De aangewezen bestuurders zijn verantwoordelijk voor het treffen van passende en evenredige technische, operationele en organisatorische maatregelen en ziet toe op de naleving daarvan. 
+De aangewezen bestuurders zijn verantwoordelijk voor het treffen van passende en evenredige technische, operationele en organisatorische maatregelen en ziet toe op de naleving daarvan.
 Kortgezegd zij zijn verantwoordelijk voor risicomanagement, dat gericht is op het borgen van digitale weerbaarheid van de entiteit.<br><br>
-Voor de sector ‘Overheid’ is in artikel 24 twaalfde lid van de Cbw gedefinieerd welke bestuurders worden bedoeld.<br><br> 
+Voor de sector ‘Overheid’ is in artikel 24 twaalfde lid van de Cbw gedefinieerd welke bestuurders worden bedoeld.<br><br>
 De bestuurder laat zich daarbij adviseren door een Chief Information Security Officer (CISO), Chief Information Officer (CIO), functionaris gegevensbescherming (FG) en dergelijke.
 
 ## 12.2 Lijnmanagement
 
 Het lijnmanagement:
 
-- is de eigenaar van informatie(systemen) en is daarmee verantwoordelijk voor het identificeren van dreigingen en risico’s van deze informatie(systemen); 
-- is verantwoordelijk voor het toepassen van de verplichte beheersmaatregelen en overheidsmaatregelen uit de BIO voor het informatiesysteem; 
+- is de eigenaar van informatie(systemen) en is daarmee verantwoordelijk voor het identificeren van dreigingen en risico’s van deze informatie(systemen);
+- is verantwoordelijk voor het toepassen van de verplichte beheersmaatregelen en overheidsmaatregelen uit de BIO voor het informatiesysteem;
 - vraagt de CISO om advies, in alle gevallen waar het afwijkt van overheidsmaatregelen, ook waar dat expliciet als bevoegdheid genoemd is.
 
 ## 12.3 CISO
 
 De CISO:
+
 - is verantwoordelijk voor de coördinatie van informatiebeveiliging;
-- ondersteunt de bestuurder en geeft gevraagd en ongevraagd advies aan de bestuurder; 
-- vertaalt wetgeving en bedrijfsdoelstellingen naar een informatiebeveiligingsbeleid; 
-- rapporteert aan het bestuur hoe het lijnmanagement het informatiebeveiligingsbeleid implementeert en op welke wijze wordt voldaan aan de BIO, om ervoor zorg te dragen dat de bestuurder geïnformeerde besluiten kan maken over de behandeling van informatiebeveiligingsrisico’s; 
+- ondersteunt de bestuurder en geeft gevraagd en ongevraagd advies aan de bestuurder;
+- vertaalt wetgeving en bedrijfsdoelstellingen naar een informatiebeveiligingsbeleid;
+- rapporteert aan het bestuur hoe het lijnmanagement het informatiebeveiligingsbeleid implementeert en op welke wijze wordt voldaan aan de BIO, om ervoor zorg te dragen dat de bestuurder geïnformeerde besluiten kan maken over de behandeling van informatiebeveiligingsrisico’s;
 - is uitdrukkelijk niet verantwoordelijk voor informatiebeveiliging door het lijnmanagement.
 
 ## 12.4 Interne toezichthouder
@@ -268,52 +265,52 @@ De CISO:
 Een bestuurder ziet toe op de toepassing van informatiebeveiliging binnen de entiteit. 
 Een interne toezichthouder kan helpen bij dit toezicht.
 
-## 13. Leveranciers 
+## 13. Leveranciers
 
 Leveranciers bieden diensten en/of producten aan entiteiten. 
-Een entiteit blijft zelf verantwoordelijk voor het behandelen van risico’s die betrekking hebben op de uitbestede of ingekochte dienst of product.<br><br> 
+Een entiteit blijft zelf verantwoordelijk voor het behandelen van risico’s die betrekking hebben op de uitbestede of ingekochte dienst of product.<br><br>
 Afhankelijk van het risico behoren daarom verplichtingen van de overheid die volgen uit de BIO of uit andere richtlijnen te worden meegenomen bij het samenstellen van inkoopeisen aan leveranciers.
 
 ## 14. Informatiebeveiligingsprincipes
 
-Overheidsmaatregelen worden risicogericht toegepast en geoperationaliseerd. 
+Overheidsmaatregelen worden risicogericht toegepast en geoperationaliseerd.
 Daarbij is het praktisch om informatiebeveiligingsprincipes te definiëren en toe te passen zoals security by design & default, toegang op basis van need to know, assume breach, zero trust, dingen gaan fout, defense in depth et cetera.
 
-## 15. Operationaliseren maatregelen/balans in de maatregelenset 
+## 15. Operationaliseren maatregelen/balans in de maatregelenset
 
-De BIO bevat maatregelen op tactisch niveau, die geoperationaliseerd worden. 
-Hierbij is het belangrijk om in de maatregelenset balans te houden tussen: 
+De BIO bevat maatregelen op tactisch niveau, die geoperationaliseerd worden.
+Hierbij is het belangrijk om in de maatregelenset balans te houden tussen:
 
-- Beschikbaarheids-, integriteits- en vertrouwelijkheidsmaatregelen 
-- Organisatorische/proces-, menselijke/gedrags- en applicatieve/technische maatregelen 
+- Beschikbaarheids-, integriteits- en vertrouwelijkheidsmaatregelen
+- Organisatorische/proces-, menselijke/gedrags- en applicatieve/technische maatregelen
 - Identificeren, beschermen, detecteren, reageren en herstellen
 
 ## 16. Treffen aanvullende maatregelen
 
-Overheden kennen verschillende soorten informatie. 
-Het is aan de entiteit zelf om te bepalen welk typen informatie zij verwerkt en welke aanvullende beveiligingsmaatregelen getroffen moeten worden. 
-Bij deze afweging worden in ieder geval - en niet uitsluitend - de volgende typen gegevens afgewogen: 
+Overheden kennen verschillende soorten informatie.
+Het is aan de entiteit zelf om te bepalen welk typen informatie zij verwerkt en welke aanvullende beveiligingsmaatregelen getroffen moeten worden.
+Bij deze afweging worden in ieder geval - en niet uitsluitend - de volgende typen gegevens afgewogen:
 
-- Open data 
-- (Bijzondere) persoonsgegevens 
-- Gevoelige of interne informatie 
+- Open data
+- (Bijzondere) persoonsgegevens
+- Gevoelige of interne informatie
 - Gerubriceerde informatie
 
 ## 17. Impact van risico’s
 
-De impact van een informatiebeveiligingsincident hangt sterk af van de context. 
-Entiteiten ondervinden vaak specifieke gevolgen door hun rol in de samenleving en democratie, hun bestuursstijl en hun verhouding tot de burgers. 
-Bij het bepalen van de impact worden minimaal onderstaande impactsgebieden afgewogen: 
+De impact van een informatiebeveiligingsincident hangt sterk af van de context.
+Entiteiten ondervinden vaak specifieke gevolgen door hun rol in de samenleving en democratie, hun bestuursstijl en hun verhouding tot de burgers.
+Bij het bepalen van de impact worden minimaal onderstaande impactsgebieden afgewogen:
 
-- Politieke schade aan een bestuurder 
-- Diplomatieke schade 
-- Financiële gevolgen 
+- Politieke schade aan een bestuurder
+- Diplomatieke schade
+- Financiële gevolgen
 - Directe imagoschade 
-- Verlies van publiek respect of vertrouwen 
-- Organisatiebrede negatieve publiciteit 
-- Significant verlies van motivatie van medewerkers 
-- Belangrijk verlies van management control 
-De impactgebieden kunnen ook bijdragen aan begrip bij de uitwisseling van impact met ketenpartners. 
+- Verlies van publiek respect of vertrouwen
+- Organisatiebrede negatieve publiciteit
+- Significant verlies van motivatie van medewerkers
+- Belangrijk verlies van management control
+De impactgebieden kunnen ook bijdragen aan begrip bij de uitwisseling van impact met ketenpartners.
 
 ## 18. Relatie BIO en andere onderwerpen 
 
