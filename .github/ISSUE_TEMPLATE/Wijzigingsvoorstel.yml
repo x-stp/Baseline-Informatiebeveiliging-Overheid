@@ -1,8 +1,9 @@
 name: "BIO-wijzigingsverzoek"
-description: "Dank je wel voor het indienen van een wijzigingsvoorstel!"
+description: "Dank je wel voor het indienen van een wijzigingsverzoek"
 assignees:
   - Annemieke-CIP
-title: "<korte_omschrijving_wijzigingsvoorstel>"
+  - BartL-CIP
+title: "Geef_een_korte_omschrijving_van_het_wijzigingsverzoek"
 labels:
   - wijzigingsvoorstel
 body:
@@ -10,16 +11,8 @@ body:
     id: bio_version
     attributes:
       label: BIO-versie
-      description: Versienummer (bijv. 2.0.1)
-      placeholder: "<versienummer>"
-    validations:
-      required: true
-
-  - type: input
-    id: indiener_organisatie
-    attributes:
-      label: Organisatie
-      placeholder: "<organisatie>"
+      description: Versienummer bijvoorbeeld BIO2 v1.3
+      placeholder: "Noteer het versienummer van de BIO waarop het wijzigingsverzoek betrekking heeft"
     validations:
       required: true
 
@@ -28,16 +21,17 @@ body:
     attributes:
       label: Welk deel van de BIO
       options:
-        - Deel 1 Inleiding
-        - Deel 2 Overheidsmaatregelen
+        - Voortekst
+        - Deel 1 BIO2-kader
+        - Deel 2 BIO-overheidsmaatregelen
     validations:
       required: true
 
   - type: input
     id: maatregelen_nummers
     attributes:
-      label: Maatregel- of regelnummer(s)
-      placeholder: "<nummer(s)_maatregel(en)>"
+      label: Maatregel- en eventueel regelnummer(s)
+      placeholder: "Maatregel- en eventueel regelnummer(s)"
     validations:
       required: true
 
@@ -45,9 +39,9 @@ body:
     id: huidige_tekst
     attributes:
       label: Huidige tekst
-      description: Plak hier de huidige tekst.
+      description: Noteer de huidige tekst.
       render: text
-      placeholder: "<huidige tekst hier plaatsen>"
+      placeholder: "Noteer de huidige tekst"
     validations:
       required: true
 
@@ -55,9 +49,9 @@ body:
     id: voorgestelde_tekst
     attributes:
       label: Voorgestelde tekst
-      description: Geef de exacte nieuwe tekst.
+      description: Noteer de voorgestelde tekst.
       render: text
-      placeholder: "<voorgestelde tekst hier plaatsen>"
+      placeholder: "Noteer de voorgestelde tekst"
     validations:
       required: true
 
@@ -65,7 +59,7 @@ body:
     id: argumentatie
     attributes:
       label: Argumentatie
-      placeholder: "<geef hier de argumenten voor de wijziging>"
+      placeholder: "Noteer de argumenten"
       render: text
     validations:
       required: true
@@ -74,19 +68,8 @@ body:
     id: verwachte_impact
     attributes:
       label: Verwachte impact
-      placeholder: "<schatting van positieve en negatieve impact>"
+      placeholder: "Noteer de verwachte positieve en negatieve impact"
       render: text
-
-  - type: dropdown
-    id: reikwijdte
-    attributes:
-      label: Reikwijdte
-      options:
-        - Hele overheid
-        - Alleen gemeenten
-        - Anders (licht toe in opmerkingen)
-    validations:
-      required: true
 
   - type: checkboxes
     id: besluitvraag
@@ -101,5 +84,5 @@ body:
     id: opmerkingen
     attributes:
       label: Opmerkingen
-      placeholder: "Overige toelichting, links, bijlagen"
+      placeholder: "Overige toelichting, links en bijlagen"
       render: text
