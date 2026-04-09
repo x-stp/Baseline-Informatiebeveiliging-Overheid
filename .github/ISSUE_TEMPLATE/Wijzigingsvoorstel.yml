@@ -1,30 +1,30 @@
 name: "BIO-wijzigingsverzoek"
 description: "Dank je wel voor het indienen van een BIO-wijzigingsverzoek."
 assignees:
-  - Annemieke-CIP
   - BartL-CIP
 title: "Geef_een_korte_omschrijving_van_het_wijzigingsverzoek"
 labels:
   - wijzigingsvoorstel
 body:
-  - type: input
-    id: bio_version
-    attributes:
-      label: BIO-versie
-      description: Noteer het versienummer van de BIO waarop het BIO-wijzigingsverzoek betrekking heeft. De laatste versie is de BIO2 v1.3.
-    validations:
-      required: true
-
-  - type: dropdown
+  - type: checkboxes
     id: welk_deel_van_de_BIO
     attributes:
       label: Welk deel van de BIO of het BIO-ontwerp
-      description: Bijvoorbeeld de Voortekst waarmee de ongenummerder hoofdstukken worden bedoeld (voorblad, copyright-notitie, wijzigingsbeheer, dankwoord). 
+      description: Bijvoorbeeld de Voortekst. Hiermee worden de ongenummerde hoofdstukken bedoeld (voorblad, copyright-notitie, wijzigingsbeheer en dankwoord).
       options:
-        - Voortekst
-        - Deel 1 BIO2-kader
-        - Deel 2 BIO-overheidsmaatregelen
-        - BIO-ontwerp
+        - Label: Voortekst
+        - Label: Deel 1 BIO2-kader
+        - label: Deel 2 BIO-overheidsmaatregelen
+        - label: BIO-ontwerp
+        - Label: Algemeen
+    validations:
+      required: true
+      
+  - type: input
+    id: bio_version
+    attributes:
+      label: BIO-versie of BIO-ontwerpversie
+      description: Noteer het versienummer van de BIO of het BIO-ontwerp waarop het BIO-wijzigingsverzoek betrekking heeft. De laatste versie van de BIO is de BIO2 v1.3.
     validations:
       required: true
 
@@ -67,22 +67,13 @@ body:
     id: verwachte_impact
     attributes:
       label: Verwachte impact
-      description: Noteer de verwachte positieve en negatieve impact.
+      description: Noteer de verwachte positieve en negatieve impact. Denk aan middelen per overheidslaag, aanpassen van processen per overheidslaag, capaciteit per overheidslaag etc.
       render: text
 
   - type: textarea
     id: opmerkingen
     attributes:
       label: Opmerkingen
-      description: Noteer eventuele opmerkingen of aanvullende informatie zoals een toelichting, links en/of bijlagen.
+      description: Noteer eventuele opmerkingen of aanvullende informatie, zoals een toelichting, links en/of bijlagen.
       render: text
 
-  - type: checkboxes
-    id: besluitvraag
-    attributes:
-      label: Besluitvraag
-      description: Deze vraag wordt door de BIO-beheerder ingevuld.
-      options:
-        - label: Besluitvorming werkgroep BIO en kennisname kern-IBO indien niet impactvol.
-        - label: Besluitvorming kern-IBO en OBDO indien impactvol.
-        - label: Publicatie op github.com/bio-overheid na besluit.
