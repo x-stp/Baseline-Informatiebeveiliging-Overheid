@@ -11,7 +11,7 @@ body:
     id: bio_version
     attributes:
       label: BIO-versie
-      description: Noteer het versienummer van de BIO waarop het wijzigingsverzoek betrekking heeft, bijvoorbeeld de laatste versie is de BIO2 v1.3.
+      description: Noteer het versienummer van de BIO waarop het BIO-wijzigingsverzoek betrekking heeft. De laatste versie is de BIO2 v1.3.
     validations:
       required: true
 
@@ -33,6 +33,7 @@ body:
     attributes:
       label: Identificatienummer(s)
       description: Noteer het nummer van het hoofdstuk, de paragraaf, de overheidsmaatregel etc., waar het BIO-wijzigingsverzoek betrekking op heeft. Voeg eventueel het regelnummer toe.
+      render: text
     validations:
       required: true
 
@@ -42,7 +43,6 @@ body:
       label: Huidige tekst
       description: Noteer de huidige tekst uit de BIO of uit het BIO-ontwerp.
       render: text
-      placeholder: "Noteer de huidige tekst uit de BIO of uit het BIO-ontwerp"
     validations:
       required: true
 
@@ -52,15 +52,14 @@ body:
       label: Voorgestelde tekst
       description: Noteer de voorgestelde tekst.
       render: text
-      placeholder: "Noteer de voorgestelde tekst"
-    validations:
+      validations:
       required: true
 
   - type: textarea
     id: argumentatie
     attributes:
       label: Argumentatie
-      placeholder: "Noteer de constatering en de argumenten."
+      description: Noteer de constatering en argumentatie voor de wijziging, denk aan feitelijke onjuistheden.
       render: text
     validations:
       required: true
@@ -69,14 +68,14 @@ body:
     id: verwachte_impact
     attributes:
       label: Verwachte impact
-      placeholder: "Noteer de verwachte positieve en negatieve impact."
+      description: Noteer de verwachte positieve en negatieve impact.
       render: text
 
   - type: textarea
     id: opmerkingen
     attributes:
       label: Opmerkingen
-      placeholder: "Noteer eventuele opmerkingen of aanvullende informatie zoals een toelichting, links en/of bijlagen."
+      description: Noteer eventuele opmerkingen of aanvullende informatie zoals een toelichting, links en/of bijlagen.
       render: text
 
   - type: checkboxes
