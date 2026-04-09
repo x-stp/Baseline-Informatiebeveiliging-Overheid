@@ -51,7 +51,7 @@ body:
       label: Voorgestelde tekst
       description: Noteer de voorgestelde tekst.
       render: text
-      validations:
+    validations:
       required: true
 
   - type: textarea
