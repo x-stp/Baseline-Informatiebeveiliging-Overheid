@@ -1,5 +1,5 @@
 name: "BIO-wijzigingsverzoek"
-description: "Dank je wel voor het indienen van een wijzigingsverzoek"
+description: "Dank je wel voor het indienen van een BIO-wijzigingsverzoek."
 assignees:
   - Annemieke-CIP
   - BartL-CIP
@@ -11,7 +11,7 @@ body:
     id: bio_version
     attributes:
       label: BIO-versie
-      description: Versienummer bijvoorbeeld BIO2 v1.3
+      description: Bijvoorbeeld de laatste versie is de BIO2 v1.3.
       placeholder: "Noteer het versienummer van de BIO waarop het wijzigingsverzoek betrekking heeft"
     validations:
       required: true
@@ -19,11 +19,13 @@ body:
   - type: dropdown
     id: welk_deel_van_de_BIO
     attributes:
-      label: Welk deel van de BIO
+      label: Welk deel van de BIO of het BIO-ontwerp
+      description: Bijvoorbeeld de Voortekst waarmee de ongenummerder hoofdstukken worden bedoeld (voorblad, copyright-notitie, wijzigingsbeheer, dankwoord). 
       options:
         - Voortekst
         - Deel 1 BIO2-kader
         - Deel 2 BIO-overheidsmaatregelen
+        - BIO-ontwerp
     validations:
       required: true
 
@@ -39,9 +41,9 @@ body:
     id: huidige_tekst
     attributes:
       label: Huidige tekst
-      description: Noteer de huidige tekst.
+      description: Noteer de huidige tekst uit de BIO of uit het BIO-ontwerp.
       render: text
-      placeholder: "Noteer de huidige tekst"
+      placeholder: "Noteer de huidige tekst uit de BIO of uit het BIO-ontwerp"
     validations:
       required: true
 
@@ -59,7 +61,8 @@ body:
     id: argumentatie
     attributes:
       label: Argumentatie
-      placeholder: "Noteer de argumenten"
+      description: Noteer de constatering en argumentatie van het wijzigingsverzoek, denk aan: feitelijke onjuistheden, inconsistente tekst veranderde wet- en regelgeving, conflict met een andere bestaande afspraak, verstoring van voorgenomen en/of bestaande processen voorkomen, veranderde inzichten over basale professionele overheidsmaatregelen, overheidsmaatregel dekt het risico onvoldoende af, kwaliteitsverbetering, onderhoudsarm maken BIO, etc.
+      placeholder: "Noteer de constatering en de argumenten."
       render: text
     validations:
       required: true
@@ -68,21 +71,23 @@ body:
     id: verwachte_impact
     attributes:
       label: Verwachte impact
-      placeholder: "Noteer de verwachte positieve en negatieve impact"
+      description: Noteer de verwachte impact van het wijzigingsverzoek, in termen van: middelen per overheidslaag, aanpassing van beveiligingsniveau, aanpassing van processen per overheidslaag, capaciteit per overheidslaag, etc.
+      placeholder: "Noteer de verwachte positieve en negatieve impact."
+      render: text
+
+  - type: textarea
+    id: opmerkingen
+    attributes:
+      label: Opmerkingen
+      placeholder: "Noteer eventuele opmerkingen of aanvullende informatie zoals een toelichting, links en/of bijlagen."
       render: text
 
   - type: checkboxes
     id: besluitvraag
     attributes:
       label: Besluitvraag
+      description: Deze vraag wordt door de BIO-beheerder ingevuld.
       options:
         - label: Besluitvorming werkgroep BIO en kennisname kern-IBO indien niet impactvol.
         - label: Besluitvorming kern-IBO en OBDO indien impactvol.
         - label: Publicatie op github.com/bio-overheid na besluit.
-
-  - type: textarea
-    id: opmerkingen
-    attributes:
-      label: Opmerkingen
-      placeholder: "Overige toelichting, links en bijlagen"
-      render: text
