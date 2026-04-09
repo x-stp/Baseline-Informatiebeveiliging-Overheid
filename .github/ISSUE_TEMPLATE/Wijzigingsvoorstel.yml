@@ -12,11 +12,11 @@ body:
       label: Welk deel van de BIO of het BIO-ontwerp
       description: Bijvoorbeeld de Voortekst. Hiermee worden de ongenummerde hoofdstukken bedoeld (voorblad, copyright-notitie, wijzigingsbeheer en dankwoord).
       options:
-        - Label: Voortekst
-        - Label: Deel 1 BIO2-kader
+        - label: Voortekst
+        - label: Deel 1 BIO2-kader
         - label: Deel 2 BIO-overheidsmaatregelen
         - label: BIO-ontwerp
-        - Label: Algemeen
+        - label: Algemeen
     validations:
       required: true
       
