@@ -61,7 +61,6 @@ body:
     id: argumentatie
     attributes:
       label: Argumentatie
-      description: Noteer de constatering en argumentatie van het wijzigingsverzoek, denk aan: feitelijke onjuistheden, inconsistente tekst veranderde wet- en regelgeving, conflict met een andere bestaande afspraak, verstoring van voorgenomen en/of bestaande processen voorkomen, veranderde inzichten over basale professionele overheidsmaatregelen, overheidsmaatregel dekt het risico onvoldoende af, kwaliteitsverbetering, onderhoudsarm maken BIO, etc.
       placeholder: "Noteer de constatering en de argumenten."
       render: text
     validations:
