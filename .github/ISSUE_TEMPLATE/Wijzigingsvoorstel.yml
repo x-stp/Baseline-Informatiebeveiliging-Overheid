@@ -70,7 +70,6 @@ body:
     id: verwachte_impact
     attributes:
       label: Verwachte impact
-      description: Noteer de verwachte impact van het wijzigingsverzoek, in termen van: middelen per overheidslaag, aanpassing van beveiligingsniveau, aanpassing van processen per overheidslaag, capaciteit per overheidslaag, etc.
       placeholder: "Noteer de verwachte positieve en negatieve impact."
       render: text
 
