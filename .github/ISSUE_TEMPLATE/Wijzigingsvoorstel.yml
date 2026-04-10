@@ -2,7 +2,7 @@ name: "BIO-wijzigingsverzoek"
 description: "Dank je wel voor het indienen van een BIO-wijzigingsverzoek."
 assignees:
   - BartL-CIP
-title: "Geef een korte omschrijving van het BIO-wijzigingsverzoek"
+title: "Noteer voor de vindbaarheid: het hoofdstuk- of paragraafnummer met een korte samenvatting van het BIO-wijzigingsverzoek."
 labels:
   - wijzigingsvoorstel
 body:
@@ -31,7 +31,7 @@ body:
   - type: input
     id: identificatienummer
     attributes:
-      label: Identificatienummer(s) + titel
+      label: Identificatienummer(s) + titel(s)
       description: Noteer het nummer van het hoofdstuk + titel, de paragraaf + titel, de overheidsmaatregel etc., waar het BIO-wijzigingsverzoek betrekking op heeft. Voeg eventueel het regelnummer toe.
     validations:
       required: true
