@@ -31,8 +31,8 @@ body:
   - type: input
     id: identificatienummer
     attributes:
-      label: Identificatienummer(s)
-      description: Noteer het nummer van het hoofdstuk, de paragraaf, de overheidsmaatregel etc., waar het BIO-wijzigingsverzoek betrekking op heeft. Voeg eventueel het regelnummer toe.
+      label: Identificatienummer(s) + titel
+      description: Noteer het nummer van het hoofdstuk + titel, de paragraaf + titel, de overheidsmaatregel etc., waar het BIO-wijzigingsverzoek betrekking op heeft. Voeg eventueel het regelnummer toe.
     validations:
       required: true
 
@@ -57,7 +57,7 @@ body:
   - type: textarea
     id: argumentatie
     attributes:
-      label: Constatering en argumentatie
+      label: Constatering + argumentatie
       description: Noteer de constatering en de argumentatie voor het BIO-wijzigingsverzoe, denk aan feitelijke onjuistheden, inconsitentie tekst, veranderde wet- en regelgeving, BIO onderhoudsarmer maken etc.
       render: text
     validations:
