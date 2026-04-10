@@ -2,7 +2,7 @@ name: "BIO-wijzigingsverzoek"
 description: "Dank je wel voor het indienen van een BIO-wijzigingsverzoek."
 assignees:
   - BartL-CIP
-title: "Geef_een_korte_omschrijving_van_het_wijzigingsverzoek"
+title: "Geef een korte omschrijving van het BIO-wijzigingsverzoek"
 labels:
   - wijzigingsvoorstel
 body:
@@ -57,8 +57,8 @@ body:
   - type: textarea
     id: argumentatie
     attributes:
-      label: Argumentatie
-      description: Noteer de constatering en argumentatie voor de wijziging, denk aan feitelijke onjuistheden.
+      label: Constatering en argumentatie
+      description: Noteer de constatering en de argumentatie voor het BIO-wijzigingsverzoe, denk aan feitelijke onjuistheden, inconsitentie tekst, veranderde wet- en regelgeving, BIO onderhoudsarmer maken etc.
       render: text
     validations:
       required: true
