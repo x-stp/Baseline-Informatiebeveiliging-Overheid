@@ -76,6 +76,8 @@ body:
       label: Verwachte impact
       description: Noteer de verwachte positieve en negatieve impact. Denk aan middelen per overheidslaag, aanpassen van processen per overheidslaag, capaciteit per overheidslaag etc.
       render: text
+    validations:
+      required: true
 
   - type: textarea
     id: opmerkingen
