@@ -39,7 +39,7 @@ body:
     id: identificatienummer
     attributes:
       label: Identificatienummer(s) + titel(s)
-      description: Noteer het nummer van het hoofdstuk + titel, de paragraaf + titel, de overheidsmaatregel etc., waar het BIO-wijzigingsverzoek betrekking op heeft. Voeg eventueel het regelnummer toe.
+      description: Noteer het nummer van het hoofdstuk + titel, de paragraaf + titel, de overheidsmaatregel etc., waarhet BIO-wijzigingsverzoek betrekking op heeft. Voeg eventueel regelnummer(s) of de betreffende alinea toe.
     validations:
       required: true
 
