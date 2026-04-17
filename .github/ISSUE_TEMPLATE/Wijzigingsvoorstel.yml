@@ -9,17 +9,17 @@ body:
     attributes:
       value: Noteer het hoofdstuk- of paragraafnummer, gevolgd door een dubbele punt en daarna een korte samenvatting van het BIO-wijzigingsverzoek. Gaat het om een toevoeging van een hoofdstuk of paragraaf start met Algemeen.
 
-- type: dropdown
+- type: checkboxes
   id: welk_deel_van_de_BIO
   attributes:
     label: Welk deel van de BIO of het BIO-ontwerp
     description: Maak een keuze. Bijvoorbeeld de Voortekst. Hiermee worden de ongenummerde hoofdstukken bedoeld (voorblad, copyright-notitie, wijzigingsbeheer en dankwoord).
     options:
-      - Voortekst
-      - Deel 1 BIO2-kader
-      - Deel 2 BIO-overheidsmaatregelen
-      - BIO-ontwerp
-      - Algemeen
+      - label: Voortekst
+      - label: Deel 1 BIO2-kader
+      - label: Deel 2 BIO-overheidsmaatregelen
+      - label: BIO-ontwerp
+      - label: Algemeen
   validations:
     required: true
      
