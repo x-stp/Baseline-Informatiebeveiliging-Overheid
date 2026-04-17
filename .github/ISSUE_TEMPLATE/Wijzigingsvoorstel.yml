@@ -21,7 +21,7 @@ body:
         - label: BIO-ontwerp
         - label: Algemeen
     validations:
-      required: true
+      required: false
       
   - type: input
     id: bio_version
