@@ -33,7 +33,7 @@ Voor meer informatie over de NEN en het gebruik van hun producten zie: www.nen.n
 ## DANKWOORD
 
 Wij danken iedereen die direct of indirect heeft bijgedragen aan de totstandkoming van de BIO2.
-In willekeurige volgorde danken wij de vertegenwoordigers van de koepelorganisaties (Vereniging van Nederlandse Gemeenten, Interprovinciaal Overleg en Unie van Waterschappen), Chief Information Security Officers (CISO’s) van overheidseniteiten, de Auditdienst Rijk (ADR), de Rijksinspectie Digitale Infrastructuur (RDI), het Nationaal Cyber Security Centrum (NCSC), het Centrum Informatiebeveiliging en Privacybescherming (CIP), de informatiebeveiligingsdienst voor gemeenten (IBD), de leden van de werkgroep BIO, bestuurders en functionarissen van overheden en alle anderen die hebben bijgedragen.<br><br>
+In willekeurige volgorde danken wij de vertegenwoordigers van de koepelorganisaties (Vereniging van Nederlandse Gemeenten, Interprovinciaal Overleg en Unie van Waterschappen), Chief Information Security Officers (CISO’s) van overheidsentiteiten, de Auditdienst Rijk (ADR), de Rijksinspectie Digitale Infrastructuur (RDI), het Nationaal Cyber Security Centrum (NCSC), het Centrum Informatiebeveiliging en Privacybescherming (CIP), de informatiebeveiligingsdienst voor gemeenten (IBD), de leden van de werkgroep BIO, bestuurders en functionarissen van overheden en alle anderen die hebben bijgedragen.<br><br>
 
 # DEEL 1 BIO2-KADER
 
